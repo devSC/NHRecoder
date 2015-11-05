@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0C6DCB1BEBA56400EFD1A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0C6DCA1BEBA56400EFD1A5 /* main.m */; };
+		FE0C6DCE1BEBA56400EFD1A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0C6DCD1BEBA56400EFD1A5 /* AppDelegate.m */; };
+		FE0C6DD11BEBA56400EFD1A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0C6DD01BEBA56400EFD1A5 /* ViewController.m */; };
+		FE0C6DD41BEBA56400EFD1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0C6DD21BEBA56400EFD1A5 /* Main.storyboard */; };
+		FE0C6DD61BEBA56400EFD1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0C6DD51BEBA56400EFD1A5 /* Assets.xcassets */; };
+		FE0C6DD91BEBA56400EFD1A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0C6DD71BEBA56400EFD1A5 /* LaunchScreen.storyboard */; };
+		FE0C6DFE1BEBA92300EFD1A5 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0C6DF41BEBA92300EFD1A5 /* libopencore-amrnb.a */; };
+		FE0C6DFF1BEBA92300EFD1A5 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0C6DF51BEBA92300EFD1A5 /* libopencore-amrwb.a */; };
+		FE0C6E001BEBA92300EFD1A5 /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE0C6DFD1BEBA92300EFD1A5 /* VoiceConverter.mm */; };
+		FE0C6E031BEBA97900EFD1A5 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE0C6E011BEBA97900EFD1A5 /* amrFileCodec.mm */; };
+		FE0C6E051BEBAAB100EFD1A5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0C6E041BEBAAB100EFD1A5 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE0C6DC61BEBA56400EFD1A5 /* NHRecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHRecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0C6DCA1BEBA56400EFD1A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE0C6DCC1BEBA56400EFD1A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE0C6DCD1BEBA56400EFD1A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE0C6DCF1BEBA56400EFD1A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE0C6DD01BEBA56400EFD1A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE0C6DD31BEBA56400EFD1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE0C6DD51BEBA56400EFD1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE0C6DD81BEBA56400EFD1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE0C6DDA1BEBA56400EFD1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0C6DF41BEBA92300EFD1A5 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		FE0C6DF51BEBA92300EFD1A5 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		FE0C6DF71BEBA92300EFD1A5 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		FE0C6DF81BEBA92300EFD1A5 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		FE0C6DFA1BEBA92300EFD1A5 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		FE0C6DFB1BEBA92300EFD1A5 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		FE0C6DFC1BEBA92300EFD1A5 /* VoiceConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceConverter.h; sourceTree = "<group>"; };
+		FE0C6DFD1BEBA92300EFD1A5 /* VoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VoiceConverter.mm; sourceTree = "<group>"; };
+		FE0C6E011BEBA97900EFD1A5 /* amrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		FE0C6E021BEBA97900EFD1A5 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		FE0C6E041BEBAAB100EFD1A5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE0C6DC31BEBA56400EFD1A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0C6E051BEBAAB100EFD1A5 /* AVFoundation.framework in Frameworks */,
+				FE0C6DFF1BEBA92300EFD1A5 /* libopencore-amrwb.a in Frameworks */,
+				FE0C6DFE1BEBA92300EFD1A5 /* libopencore-amrnb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE0C6DBD1BEBA56400EFD1A5 = {
+			isa = PBXGroup;
+			children = (
+				FE0C6E041BEBAAB100EFD1A5 /* AVFoundation.framework */,
+				FE0C6DC81BEBA56400EFD1A5 /* NHRecoder */,
+				FE0C6DC71BEBA56400EFD1A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE0C6DC71BEBA56400EFD1A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE0C6DC61BEBA56400EFD1A5 /* NHRecoder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE0C6DC81BEBA56400EFD1A5 /* NHRecoder */ = {
+			isa = PBXGroup;
+			children = (
+				FE0C6DCC1BEBA56400EFD1A5 /* AppDelegate.h */,
+				FE0C6DCD1BEBA56400EFD1A5 /* AppDelegate.m */,
+				FE0C6DCF1BEBA56400EFD1A5 /* ViewController.h */,
+				FE0C6DD01BEBA56400EFD1A5 /* ViewController.m */,
+				FE0C6DF11BEBA92300EFD1A5 /* VoiceConvert */,
+				FE0C6DD21BEBA56400EFD1A5 /* Main.storyboard */,
+				FE0C6DD51BEBA56400EFD1A5 /* Assets.xcassets */,
+				FE0C6DD71BEBA56400EFD1A5 /* LaunchScreen.storyboard */,
+				FE0C6DDA1BEBA56400EFD1A5 /* Info.plist */,
+				FE0C6DC91BEBA56400EFD1A5 /* Supporting Files */,
+			);
+			path = NHRecoder;
+			sourceTree = "<group>";
+		};
+		FE0C6DC91BEBA56400EFD1A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE0C6DCA1BEBA56400EFD1A5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE0C6DF11BEBA92300EFD1A5 /* VoiceConvert */ = {
+			isa = PBXGroup;
+			children = (
+				FE0C6DF21BEBA92300EFD1A5 /* amrwapper */,
+				FE0C6DF31BEBA92300EFD1A5 /* lib */,
+				FE0C6DF61BEBA92300EFD1A5 /* opencore-amrnb */,
+				FE0C6DF91BEBA92300EFD1A5 /* opencore-amrwb */,
+				FE0C6DFC1BEBA92300EFD1A5 /* VoiceConverter.h */,
+				FE0C6DFD1BEBA92300EFD1A5 /* VoiceConverter.mm */,
+			);
+			path = VoiceConvert;
+			sourceTree = "<group>";
+		};
+		FE0C6DF21BEBA92300EFD1A5 /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				FE0C6E011BEBA97900EFD1A5 /* amrFileCodec.mm */,
+				FE0C6E021BEBA97900EFD1A5 /* amrFileCodec.h */,
+			);
+			path = amrwapper;
+			sourceTree = "<group>";
+		};
+		FE0C6DF31BEBA92300EFD1A5 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FE0C6DF41BEBA92300EFD1A5 /* libopencore-amrnb.a */,
+				FE0C6DF51BEBA92300EFD1A5 /* libopencore-amrwb.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		FE0C6DF61BEBA92300EFD1A5 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				FE0C6DF71BEBA92300EFD1A5 /* interf_dec.h */,
+				FE0C6DF81BEBA92300EFD1A5 /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		FE0C6DF91BEBA92300EFD1A5 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				FE0C6DFA1BEBA92300EFD1A5 /* dec_if.h */,
+				FE0C6DFB1BEBA92300EFD1A5 /* if_rom.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE0C6DC51BEBA56400EFD1A5 /* NHRecoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0C6DDD1BEBA56400EFD1A5 /* Build configuration list for PBXNativeTarget "NHRecoder" */;
+			buildPhases = (
+				FE0C6DC21BEBA56400EFD1A5 /* Sources */,
+				FE0C6DC31BEBA56400EFD1A5 /* Frameworks */,
+				FE0C6DC41BEBA56400EFD1A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHRecoder;
+			productName = NHRecoder;
+			productReference = FE0C6DC61BEBA56400EFD1A5 /* NHRecoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE0C6DBE1BEBA56400EFD1A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Wilson-Yuan";
+				TargetAttributes = {
+					FE0C6DC51BEBA56400EFD1A5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = FE0C6DC11BEBA56400EFD1A5 /* Build configuration list for PBXProject "NHRecoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE0C6DBD1BEBA56400EFD1A5;
+			productRefGroup = FE0C6DC71BEBA56400EFD1A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE0C6DC51BEBA56400EFD1A5 /* NHRecoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE0C6DC41BEBA56400EFD1A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0C6DD91BEBA56400EFD1A5 /* LaunchScreen.storyboard in Resources */,
+				FE0C6DD61BEBA56400EFD1A5 /* Assets.xcassets in Resources */,
+				FE0C6DD41BEBA56400EFD1A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE0C6DC21BEBA56400EFD1A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0C6DD11BEBA56400EFD1A5 /* ViewController.m in Sources */,
+				FE0C6DCE1BEBA56400EFD1A5 /* AppDelegate.m in Sources */,
+				FE0C6DCB1BEBA56400EFD1A5 /* main.m in Sources */,
+				FE0C6E001BEBA92300EFD1A5 /* VoiceConverter.mm in Sources */,
+				FE0C6E031BEBA97900EFD1A5 /* amrFileCodec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE0C6DD21BEBA56400EFD1A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0C6DD31BEBA56400EFD1A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE0C6DD71BEBA56400EFD1A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0C6DD81BEBA56400EFD1A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE0C6DDB1BEBA56400EFD1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE0C6DDC1BEBA56400EFD1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE0C6DDE1BEBA56400EFD1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NHRecoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NHRecoder/VoiceConvert/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wilson.NHRecoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE0C6DDF1BEBA56400EFD1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NHRecoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NHRecoder/VoiceConvert/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wilson.NHRecoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE0C6DC11BEBA56400EFD1A5 /* Build configuration list for PBXProject "NHRecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0C6DDB1BEBA56400EFD1A5 /* Debug */,
+				FE0C6DDC1BEBA56400EFD1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0C6DDD1BEBA56400EFD1A5 /* Build configuration list for PBXNativeTarget "NHRecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0C6DDE1BEBA56400EFD1A5 /* Debug */,
+				FE0C6DDF1BEBA56400EFD1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE0C6DBE1BEBA56400EFD1A5 /* Project object */;
+}
